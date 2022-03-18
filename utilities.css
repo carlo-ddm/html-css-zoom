@@ -1,0 +1,16 @@
+.h100 {
+  height: 100px;
+}
+
+.h200 {
+  height: 200px;
+}
+
+.h300 {
+  height: 300px;
+}
+
+.debug {
+  background-color: bisque;
+  border: 1px solid black;
+}

@@ -8,11 +8,14 @@ header {
   justify-content: end;
 }
 
+.container.debug.btn {
+  justify-content: space-around;
+}
+
 main {
   justify-content: center;
 }
 
 .container {
   margin: 10px;
-  
 }

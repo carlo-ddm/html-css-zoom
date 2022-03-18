@@ -25,5 +25,20 @@
 
 .container.debug {
   background-color: rgb(209, 144, 65);
+  border: 1px solid white
+}
+
+.container.debug.btn {
+  width: 10%;
+  text-align: center;
+}
+
+.btn {
   border: 1px solid black;
 }
+
+.btn.left {
+  width: 60%;
+}
+
+

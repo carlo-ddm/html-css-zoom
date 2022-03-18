@@ -5,6 +5,14 @@
 }
 
 header {
-  display: flex;
   justify-content: end;
+}
+
+main {
+  justify-content: center;
+}
+
+.container {
+  margin: 10px;
+  
 }

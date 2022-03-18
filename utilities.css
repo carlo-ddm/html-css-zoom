@@ -1,16 +1,29 @@
-.h100 {
-  height: 100px;
+.d-flex {
+  display: flex;
 }
 
-.h200 {
-  height: 200px;
+.w100 {
+  width: 100%;
 }
 
-.h300 {
-  height: 300px;
+.h5 {
+  height: 5vh;
+}
+
+.h800 {
+  height: 800px;
+}
+
+.w80 {
+  width: 80%;
 }
 
 .debug {
   background-color: bisque;
+  border: 1px solid black;
+}
+
+.container.debug {
+  background-color: rgb(209, 144, 65);
   border: 1px solid black;
 }

@@ -11,7 +11,7 @@ header {
 
 header .container.btn,
 footer .container.btn.central {
-  justify-content: space-around;
+  justify-content: end;
 }
 
 footer .container.btn.right {
@@ -29,6 +29,11 @@ main {
   margin: 0;
 }
 
+main .container {
+  padding: 15px;
+  border: 1px solid yellowgreen;
+}
+
 /* Simone ha tolto il margin al container */
 
 footer {
@@ -43,3 +48,6 @@ footer {
 .footer.left .btn.footer {
   flex-basis: 50%;
 }
+
+
+/* D-flex btn footer */

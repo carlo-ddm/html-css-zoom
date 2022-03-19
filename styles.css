@@ -1,3 +1,11 @@
-header, main, footer {
+header, main {
+  background-color: black;
+}
+
+footer {
+  background-color: #191919;
+}
+
+header .btn {
   background-color: black;
 }

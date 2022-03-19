@@ -28,12 +28,11 @@
  /* DEBUGS */
 .debug {
   background-color: bisque;
-  border: 1px solid black;
 }
 
 /* BTN */
 .container.debug.btn {
-  flex-basis: 10%;
+  flex-basis: 22%;
   text-align: center;
 }
 
@@ -43,19 +42,32 @@
 }
 
 .btn {
-  background-color: black;
+  background-color: #191919;
+  display: flex;
 }
 
 header .btn.left {
-  flex-basis: 60%;
-  height: 20px;
-  border: 1px solid yellowgreen;
+  justify-content: space-between;
+  flex-basis: 43%;
+  margin-right: 5px;
+  color: white;
+  padding: 5px;
+  height: 25px;
+  background-color: #393939;
+  margin-top: 5px;
+  border-radius: 1px;
 }
 
 header .btn.right {
-  flex-basis: 40%;
-  height: 20px;
-  border: 1px solid yellowgreen;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  color: white;
+  flex-basis: 10%;
+  height: 25px;
+  background-color: #393939;
+  margin-top: 5px;
+  border-radius: 1px;
 }
 
 /* BTN FOOTER */
@@ -63,19 +75,57 @@ header .btn.right {
   flex-basis: 10%;
 }
 
-
 .btn.footer.right .btn.footer {
+  justify-content: center;
+  align-items: center;
+  background-color: #393939;
+  color: red;
   flex-basis: 100%;
   border: 1px solid yellowgreen;
 }
 
 .btn.footer.central .btn.footer {
+  justify-content: center;
+  align-items: center;
+  color: white;
   border: 1px solid yellowgreen;
+}
+
+.btn.footer.central .btn.footer:nth-child(4) {
+  color: yellowgreen;
+}
+
+.btn.footer.central .btn.footer:nth-child(5) {
+  justify-content: space-around;
 }
 
 .btn.footer.left .btn.footer {
+  justify-content: space-around;
+  align-items: center;
+  color: white;
   border: 1px solid yellowgreen;
 }
 
+.btn.footer.central .btn.footer i:first-child {
+  font-size: 25px;
+}
 
+.btn.footer.central .btn.footer i:nth-child(2) {
+  font-size: 10px;
+}
 
+.btn.footer.central .btn.footer:nth-child(5) i:nth-child(1) {
+  font-size: 10px;
+}
+
+.btn.footer.central .btn.footer:nth-child(5) i:nth-child(2) {
+  font-size: 25px;
+}
+
+.btn.footer.left .btn.footer i:first-child {
+  font-size: 25px;
+}
+
+.btn.footer.left .btn.footer i:nth-child(2) {
+  font-size: 10px;
+}

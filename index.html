@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&family=Montserrat:wght@100;300&family=Roboto:wght@300&family=Syne+Mono&display=swap" rel="stylesheet">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css' integrity='sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==' crossorigin='anonymous'/>
   <link rel="stylesheet" href="global.css">
   <link rel="stylesheet" href="styles.css">
@@ -15,11 +18,12 @@
   <!-- Header -->
   <header class="d-flex w100">
     <div class="d-flex f-basis10 container debug btn">
-      <div class="btn left">
-        1
+      <div class="d-flex btn left">
+        <i class="fa-solid fa-align-justify"></i>
+        Speaker View
       </div>
-      <div class="btn right">
-        2
+      <div class="d-flex btn right">
+        <i class="fa-solid fa-maximize"></i>
       </div>
 
     </div>
@@ -31,7 +35,7 @@
   <!-- Main -->
   <main class="d-flex w100">
 
-    <div class="container debug w90 h800 debug">
+    <div class="container w90 h800">
       
       
     </div>
@@ -44,38 +48,51 @@
   <footer class="d-flex w100">
 
     <div class="d-flex f-basis10 container btn footer left">
-      <div class="btn footer">
-        1
+      <div class="d-flex btn footer">
+        <i class="fa-solid fa-microphone"></i>
+        <i class="fa-solid fa-chevron-up"></i>
       </div>
-      <div class="btn footer">
-        2
+      <div class="d-flex btn footer">
+        <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-chevron-up"></i>
       </div>
     </div>
 
     <div class="d-flex f-basis50 container debug btn footer central">
-      <div class="btn footer">1</div>
-      <div class="btn footer">2</div>
-      <div class="btn footer">3</div>
-      <div class="btn footer">4</div>
-      <div class="btn footer">5</div>
-      <div class="btn footer">6</div>
-      <div class="btn footer">7</div>
-      <div class="btn footer">8</div>
-    </div>
-
-    <div class="d-flex container debug btn footer right">
-      <div class="btn footer">
-        1
+      <div class="d-flex btn footer">
+        <i class="fa-solid fa-user-plus"></i>
+      </div>
+      <div class="d-flex btn footer">
+        <i class="fa-solid fa-user-group"></i>
+      </div>
+      <div class="d-flex btn footer">
+        <i class="fa-solid fa-chart-column"></i>
+      </div>
+      <div class="d-flex btn footer">
+        <i class="fa-solid fa-share-from-square"></i>
+      </div>
+      <div class="d-flex btn footer">
+        <i class="fa-solid fa-chevron-up"></i>
+        <i class="fa-solid fa-comment"></i>
+      </div>
+      <div class="d-flex btn footer">
+        <i class="fa-solid fa-record-vinyl"></i>
+      </div>
+      <div class="d-flex btn footer">
+        <i class="fa-solid fa-table-cells-large"></i>
+      </div>
+      <div class="d-flex btn footer">
+        <i class="fa-solid fa-ellipsis"></i>
       </div>
     </div>
 
+    <div class="d-flex container btn footer right">
+      <div class="btn footer">
+        <span>End meeting</span>
+      </div>
+    </div>
   </footer>
   <!-- /Footer -->
-
-
   
 </body>
 </html>
-
-
-<!-- Correggere footer container left e right NB. sono space-between il priemo, è end il secondo -->

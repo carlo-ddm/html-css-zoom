@@ -6,16 +6,40 @@
 
 header {
   justify-content: end;
+  height: 5vh;
 }
 
-.container.debug.btn {
+header .container.btn,
+footer .container.btn.central {
   justify-content: space-around;
+}
+
+footer .container.btn.right {
+  justify-content: end;
 }
 
 main {
   justify-content: center;
+  height: calc(100vh - 13vh);
 }
 
 .container {
   margin: 10px;
+  height: 100%;
+  margin: 0;
+}
+
+/* Simone ha tolto il margin al container */
+
+footer {
+  justify-content: space-between;
+  height: 8vh;
+}
+
+.container.dubug.btn.footer.left {
+  justify-content: space-between;
+}
+
+.footer.left .btn.footer {
+  flex-basis: 50%;
 }

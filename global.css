@@ -23,7 +23,10 @@ main {
   height: calc(100vh - 13vh);
 }
 
-.container {
+.container.w90.h800 {
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 10px;
   height: 100%;
   margin: 0;
@@ -31,7 +34,6 @@ main {
 
 main .container {
   padding: 15px;
-  border: 1px solid yellowgreen;
 }
 
 /* Simone ha tolto il margin al container */
@@ -41,7 +43,7 @@ footer {
   height: 8vh;
 }
 
-.container.dubug.btn.footer.left {
+.container.btn.footer.left {
   justify-content: space-between;
 }
 
@@ -50,4 +52,13 @@ footer {
 }
 
 
-/* D-flex btn footer */
+/* Continer-IMG */
+.img-container {
+  padding: 1px;
+  width: 158px;
+  height: 150px;
+}
+
+img {
+  width: 100%;
+}

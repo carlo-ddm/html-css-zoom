@@ -31,14 +31,12 @@
 }
 
 /* BTN */
-.container.debug.btn {
+.container.btn {
   flex-basis: 22%;
-  text-align: center;
 }
 
 .container.debug.btn.footer.central {
   flex-basis: 40%;
-  text-align: center;
 }
 
 .btn {
@@ -81,14 +79,12 @@ header .btn.right {
   background-color: #393939;
   color: red;
   flex-basis: 100%;
-  border: 1px solid yellowgreen;
 }
 
 .btn.footer.central .btn.footer {
   justify-content: center;
   align-items: center;
   color: white;
-  border: 1px solid yellowgreen;
 }
 
 .btn.footer.central .btn.footer:nth-child(4) {
@@ -103,7 +99,6 @@ header .btn.right {
   justify-content: space-around;
   align-items: center;
   color: white;
-  border: 1px solid yellowgreen;
 }
 
 .btn.footer.central .btn.footer i:first-child {

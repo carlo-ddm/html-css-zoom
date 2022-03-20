@@ -9,9 +9,13 @@ header {
   height: 5vh;
 }
 
-header .container.btn,
-footer .container.btn.central {
+header .container.btn {
   justify-content: end;
+}
+
+
+footer .container.btn.central {
+  justify-content: center;
 }
 
 footer .container.btn.right {

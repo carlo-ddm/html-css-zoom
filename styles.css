@@ -11,3 +11,7 @@ header .btn {
 }
 
 /* NB. Riordina tutto il cod secondo parametri file */
+
+header .container i {
+  margin-right: 5px;
+}
